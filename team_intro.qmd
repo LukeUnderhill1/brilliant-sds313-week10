@@ -11,7 +11,7 @@ format: html
 
 -Emily Willadson
 Kevin Lin
-<!-- Luke Underhill -->
+- Luke Underhill
 
 - Sanjana Sunkara
 
@@ -31,7 +31,14 @@ library(palmerpenguins)
 
 
 
-### [Kevin Lin] — ["Body Mass by Species"]
+### Luke Underhill — ["Bill Length by Species"]
+
+```{r}
+
+penguins |> ggplot(aes(x = species, y = bill_length_mm, fill = species)) + geom_boxplot()
+
+```
+
 
 ### [Emily Willadson] — ["Flipper Length by Species"]
 
@@ -49,6 +56,14 @@ penguins |> ggplot(aes(x = species, y = flipper_length_mm, fill = species)) + ge
 ### Sanjana Sunkara — ["Bill Length vs Body Mass by Species]
 
 ```{r}
+
+penguins |> ggplot(aes(x = species, y = bill_length_mm, fill = species)) + geom_boxplot()
+
+```
+
+### [Kevin Lin] — ["Body Mass by Species"]
+
+
 # Make your agreed-upon plot here, e.g.:
 
  penguins |> 
@@ -61,4 +76,3 @@ penguins |> ggplot(aes(x = species, y = flipper_length_mm, fill = species)) + ge
      title = "Bill Length vs Body Mass by Species"
    )
 ```
-
