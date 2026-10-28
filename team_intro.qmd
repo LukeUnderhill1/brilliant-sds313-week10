@@ -44,3 +44,21 @@ penguins |> ggplot(aes(x = species, y = flipper_length_mm, fill = species)) + ge
     fill = "Species"
   )
 ```
+
+
+### Sanjana Sunkara — ["Bill Length vs Body Mass by Species]
+
+```{r}
+# Make your agreed-upon plot here, e.g.:
+
+ penguins |> 
+  ggplot(
+    aes(x = bill_length_mm, y = body_mass_g, colour = species)) + 
+  geom_point() +
+   labs(
+     x = "Bill Length",
+     y = "Body Mass",
+     title = "Bill Length vs Body Mass by Species"
+   )
+```
+
