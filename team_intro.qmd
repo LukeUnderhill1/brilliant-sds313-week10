@@ -8,8 +8,7 @@ format: html
 <!-- Everyone: add your name below, one per line. You will likely collide with a teammate
      editing this same list at the same time — that's expected, and it's your first real
      merge conflict. Resolve it together rather than one person overwriting the other. -->
-
--
+-Emily Willadson
 
 ## Team Visualizations
 
@@ -24,9 +23,14 @@ library(tidyverse)
 library(palmerpenguins)
 ```
 
-### [Your Name] — [Your Visualization, e.g. "Body Mass by Species"]
+### [Emily Willadson] — ["Flipper Length by Species"]
 
 ```{r}
-# Make your agreed-upon plot here, e.g.:
-# penguins |> ggplot(aes(x = species, y = body_mass_g, fill = species)) + geom_boxplot()
+# Box plot comparing distributions of Flipper Length across species
+penguins |> ggplot(aes(x = species, y = flipper_length_mm, fill = species)) + geom_boxplot() +
+  labs(
+    x = "Flipper Length",
+    y = "Species",
+    fill = "Species"
+  )
 ```
