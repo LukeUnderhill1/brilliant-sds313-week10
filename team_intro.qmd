@@ -30,9 +30,10 @@ library(palmerpenguins)
 ```
 
 
-### [Emily Willadson] — ["Flipper Length by Species"]
 
 ### [Kevin Lin] — ["Body Mass by Species"]
+
+### [Emily Willadson] — ["Flipper Length by Species"]
 
 ```{r}
 # Box plot comparing distributions of Flipper Length across species
