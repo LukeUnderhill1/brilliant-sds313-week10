@@ -1,5 +1,5 @@
 ---
-title: "Team [TEAM NAME] — Intro"
+title: "Team Brilliant — Intro"
 format: html
 ---
 
@@ -8,7 +8,13 @@ format: html
 <!-- Everyone: add your name below, one per line. You will likely collide with a teammate
      editing this same list at the same time — that's expected, and it's your first real
      merge conflict. Resolve it together rather than one person overwriting the other. -->
+
 -Emily Willadson
+Kevin Lin
+<!-- Luke Underhill -->
+
+- Sanjana Sunkara
+
 
 ## Team Visualizations
 
@@ -23,7 +29,10 @@ library(tidyverse)
 library(palmerpenguins)
 ```
 
+
 ### [Emily Willadson] — ["Flipper Length by Species"]
+
+### [Kevin Lin] — ["Body Mass by Species"]
 
 ```{r}
 # Box plot comparing distributions of Flipper Length across species
